@@ -1,0 +1,67 @@
+body {
+  padding-top: 50px;
+  background: #003a70 url("../img/cas_login_bg_sm.jpg") no-repeat; }
+
+.row {
+  padding: 40px 15px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  opacity: .95; }
+  .row .login-box,
+  .row .instructions-box {
+    width: 100%; }
+  .row .login-box {
+    text-align: left;
+    border-bottom: thin solid #aaa;
+    margin-bottom: 20px;
+    padding-bottom: 12px; }
+  .row .instructions-box .panel-body ul {
+    list-style-type: none;
+    padding-left: 0; }
+    .row .instructions-box .panel-body ul li:not(:last-child) {
+      padding-bottom: 10px; }
+
+@media (min-width: 768px) {
+  body {
+    background: #003a70 url("../img/cas_login_bg.jpg") no-repeat;
+    background-size: cover; }
+  .container {
+    min-height: 45em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .container .row {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      min-height: 358px;
+      background: #fff;
+      padding-top: 20px; }
+      .container .row .login-box,
+      .container .row .instructions-box {
+        width: 45%; }
+      .container .row .login-box {
+        height: 318px;
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-right: thin solid #aaa;
+        padding-right: 2em; }
+        .container .row .login-box h3 {
+          margin-top: 0; }
+      .container .row .instructions-box #collapse1.panel-collapse.collapse.in {
+        display: block; } }
