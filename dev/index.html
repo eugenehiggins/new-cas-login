@@ -55,19 +55,23 @@
 		<div class="row panel panel-default">
 			<div class="login-box">
 				<h3>Enter your CNM Username and Password</h3>
-				<p class="lead">
-					<form role="form">
+					<form role="form" class="form-horizontal">
 						<div class="form-group">
-							<label for="email">Email address:</label>
-							<input type="email" class="form-control input-sm" id="email">
+							<label for="email" class="col-sm-3 control-label">Username:</label>
+							<div class="input-group col-sm-9">
+								<input type="email" class="form-control input-sm" id="email">
+								<span class="input-group-addon input-sm" id="basic-addon2">@cnm.edu</span>
+							</div>
 						</div>
 						<div class="form-group">
-							<label for="pwd">Password:</label>
-							<input type="password" class="form-control input-sm" id="pwd">
+							<label for="pwd" class="control-label col-sm-3">Password:</label>
+							<div class="input-group col-sm-9">
+								<input type="password" class="form-control input-sm" id="pwd">
+							</div>
 						</div>
 						<button type="submit" class="btn btn-default">Submit</button>
 					</form>
-				</p>
+					<div class="login-security">For security reasons, please Log Out and Exit your web browser when you are done accessing services that require authentication!</div>
 			</div> <!-- /.login-box -->
 			<div class="instructions-box">
 				<div class="panel-group" id="accordion">
